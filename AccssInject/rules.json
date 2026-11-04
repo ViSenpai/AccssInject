@@ -1,6 +1,6 @@
 [
   {
     "urlPattern": "https://.*\\.wikipedia\\.org/.*",
-    "cssUrl": "https://raw.githubusercontent.com/ViSenpai/AccssInject/refs/heads/main/AccssInject/styles/wikipedia.css?token=GHSAT0AAAAAAEPAIL7SKARWI5QZ2BKQ3EQ62XLQCGA"
+    "cssUrl": "https://raw.githubusercontent.com/ViSenpai/AccssInject/refs/heads/main/AccssInject/styles/wikipedia.css"
   }
 ]
