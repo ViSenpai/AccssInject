@@ -3,6 +3,13 @@ body, html {
   background-color: #121212 !important;
   color: #e0e0e0 !important;
 }
+/* Fix page container blanco estilo trasnlucido */
+.mw-page-container, #content, #mw-content-text, .mw-body, .vector-header, .vector-page-toolbar, .mw-footer
+Especificidad: (0,1,0)
+ {
+    background-color: rgb(18, 18, 18) !important;
+    color: rgb(24, 24, 24) !important;
+}
 
 /* Forzando contenedores principales de Wikipedia (Vector 2022 y clásico) */
 .mw-page-container,
