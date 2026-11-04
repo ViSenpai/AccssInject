@@ -1,4 +1,36 @@
-body {
+/* Fondo general y texto base */
+body, html {
   background-color: #121212 !important;
   color: #e0e0e0 !important;
+}
+
+/* Forzando contenedores principales de Wikipedia (Vector 2022 y clásico) */
+.mw-page-container,
+#content,
+#mw-content-text,
+.mw-body,
+.vector-header,
+.vector-page-toolbar,
+.mw-footer {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+
+/* Asegurarando legibilidad en paneles laterales y menús */
+.vector-sidebar,
+.vector-menu-portal,
+.vector-toc {
+  background-color: #1a1a1a !important;
+  color: #e0e0e0 !important;
+}
+
+/* Ajustando enlaces para que se distingan bien sobre fondo oscuro */
+a {
+  background-color: transparent !important;
+}
+a:link {
+  color: #58a6ff !important;
+}
+a:visited {
+  color: #bc8cff !important;
 }
