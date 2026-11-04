@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "AccssInject",
+  "version": "1.0",
+  "description": "Mejora la visualicacion web para sitios, gob para mejorar accesibilidad a usuarios, dedicados a servicios parafiscales Inyecta CSS dinámicamente desde GitHub según la URL.",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://raw.githubusercontent.com/*",
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

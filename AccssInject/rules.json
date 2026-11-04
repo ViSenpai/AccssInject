@@ -1,0 +1,6 @@
+[
+  {
+    "urlPattern": "https://.*\\.wikipedia\\.org/.*",
+    "cssUrl": ""
+  }
+]
