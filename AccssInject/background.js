@@ -1,5 +1,5 @@
 // URL directa al archivo JSON con las reglas en tu GitHub (Raw)
-const CONFIG_URL = "";
+const CONFIG_URL = "https://raw.githubusercontent.com/ViSenpai/AccssInject/refs/heads/main/AccssInject/rules.json?token=GHSAT0AAAAAAEPAIL7SAHQFGATYIEDJ37GC2XLQBSA";
 
 // Caché para evitar peticiones en cada cambio de pestaña
 let rulesCache = null;
